@@ -1,0 +1,25 @@
+.main{
+    max-width: 100%;
+    padding: 0px 15px;
+    margin: 0 auto;
+    background-color: #1e2a3e;
+    background-image: repeating-radial-gradient(
+      circle at center left,
+      transparent 0,
+      #233656 100px
+    );
+    color: white;
+}
+.container{
+    max-width: 1220px;
+    padding: 100px 15px;
+    margin: 0 auto;
+}
+img{
+    width: 25px;
+    height: 25px;
+}
+button{
+    border: 0;
+    background: #595b6194;
+}

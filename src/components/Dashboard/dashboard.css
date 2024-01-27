@@ -1,0 +1,48 @@
+/* dashboard */
+
+.list-dashboard{
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  flex-wrap: wrap;
+  border: 1px solid #E99D72;
+  background-color: #595b6194;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+.list-button_1,
+.list-button_2,
+.list-button_3,
+.list-button_4{
+  background-color: #c96850;
+  box-shadow: inset -4px -4px 10px #55291e, inset 4px 4px 10px 1px #ffae9a;
+  border: 1px solid #c96850; 
+  padding: 5px 20px;
+  min-height: 100%;
+}
+
+.list-button_1.clicked,
+.list-button_2.clicked, 
+.list-button_3.clicked,
+.list-button_4.clicked {
+  background-color: #8a30ca;
+  box-shadow: inset -4px -4px 10px #55291e, inset 4px 4px 10px 1px #ffae9a;
+  border: 1px solid #c96850; 
+}
+.list-filter_box{
+  position: relative;
+  
+}
+.list-filter_icon{
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  width: 20px;
+  height: 20px;
+}
+.list-filter{
+  border-radius: 20px;
+  background: rgb(232, 154, 91);
+  padding: 10px 30px;
+}

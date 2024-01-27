@@ -1,0 +1,50 @@
+
+/* Upload files */
+.file-container{
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+ align-items: center;
+}
+.file-input {
+
+ 
+  }
+  
+  .sr-only{
+  
+  }
+  .section-one{
+    background:#e3e6e185;
+    max-width: 600px;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 20px;
+  }
+  .section-one ul{
+    list-style-type: none;
+  }
+  .file-uploader {
+    cursor: pointer;
+    background-color: #c96850;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 20px;
+    transition: all 0.2s ease-in-out;
+    box-shadow: inset -4px -4px 10px #55291e, inset 4px 4px 10px 1px #ffae9a;
+    margin-top: 50px;
+    text-align: center;
+    width: 165px;
+  }
+  
+  .submit{
+    
+  }
+  
+#file-upload-button{
+  display: none;
+}
+input[type="file"]::-webkit-file-upload-button {
+  display: none;
+}

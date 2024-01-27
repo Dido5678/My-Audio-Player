@@ -1,0 +1,45 @@
+.cover-block {
+  max-width: 100%;
+  height: 40%;
+  margin-bottom: 50px;
+}
+
+.cover-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+.cover-image{
+  width: 300px;
+  height: 300px;
+}
+.cover-song_audio{
+  flex-grow: 1;
+  background-color: #c96850;
+  box-shadow: inset -4px -4px 10px #55291e, inset 4px 4px 10px 1px #ffae9a;
+}
+.rotate {
+  animation: rotation 10s linear infinite;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media(max-width:767.98px){
+  .cover-list{
+    flex-direction: column;
+  }
+}
+@media(max-width:479.98px){
+  .cover-image{
+    width: 230px;
+    height: 230px;
+  }
+}

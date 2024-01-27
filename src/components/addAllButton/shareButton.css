@@ -1,0 +1,23 @@
+.share-title{
+   background-image:linear-gradient(to bottom left, #553c9a, #ee4b2b);
+   text-align: center;
+   margin-bottom: 50px;
+   border-radius: 30px;
+   padding: 10px 0px;
+}
+.share-context{
+    display: flex;
+    justify-content: space-around;
+}
+.share-context img{
+     width: 60px;
+     height: 60px;
+    
+}
+.share-btn{
+    text-align: center;
+    margin: 30px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-image:linear-gradient(to bottom left, #553c9a, #ee4b2b);
+}

@@ -1,0 +1,30 @@
+ /* play batton */
+ .open-window_{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.open-window_item{
+    overflow: hidden;
+    text-align: center; 
+}
+.open-window_img{
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+    padding: 20px;
+}
+.open-window_btn{
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    padding-right: 450px;
+}
+.open-window_btn img{
+    background: transparent;
+}
+.open-window_url{
+  overflow: hidden;
+  max-width: 470px;
+  padding: 0px 20px;
+}
