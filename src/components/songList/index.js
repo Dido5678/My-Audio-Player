@@ -4,6 +4,8 @@ import songData from '../../data/song.json';
 import PlayButton from '../playAllButton/PlayButton';
 import ShareButton from '../addAllButton/ShareButton';
 import { Link } from 'react-router-dom';
+import FavoritiesContainer from '../addAllButton/FavoritiesContainer';
+
 
 export default function SongList() {
   const [songs, setSongs] = useState([]); 
@@ -11,8 +13,9 @@ export default function SongList() {
 
 
   useEffect(() => {
-    setSongs(songData.slice(0, 8));
-    // console.log(songData);
+
+    setSongs(songData.slice(0, 5));
+  
   }, []);
  
 
@@ -91,12 +94,12 @@ export default function SongList() {
                   <img src={song.links.images[0].url} className='songList-img' alt="foto artists" />
                 </div>
                 <div className='songList-song_more-options'>
-                <Link to='/favorites' onClick={handleFavoritesClick} className='hearth'>
-                  <img className="table-song_hearth" src={song.buttons.but[0]?.src} alt="hearth" song={song} />
-                </Link>
+                <FavoritiesContainer song={song}/>
                   <img className="songList-song_done" src={song.buttons.but[1].src} alt="done" />
                   <ShareButton song={song} />
-                  <img className='songList-sort' src={song.buttons.but[3].src} alt="sort" />
+                  <Link to={'/favorites'}> 
+                 <img className='songList-sort' src={song.buttons.but[3].src} alt="sort" />
+                 </Link>
                 </div>
               </div>
             </React.Fragment>

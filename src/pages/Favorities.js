@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './favorities.css';
 import songData from '../data/song.json';
+import { Link } from 'react-router-dom';
 
 
 export default function Favorities() {
@@ -15,7 +16,10 @@ export default function Favorities() {
     <div className='favorities'>
       <div className='favorities-container container'>
       <div>
-          <h2 className='favorities-title'>FAVORITE SONGS</h2>
+      <Link to={'/'}>HOME</Link>
+          <h2 className='favorities-title'>ALL SONGS </h2>
+          {/* <div> </div> */}
+          
             <div className='favorities-list'>  
              {songs.map((song) => (
                 <div key={song.id} className='favorities-item'>
