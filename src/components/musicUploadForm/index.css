@@ -6,17 +6,10 @@
    gap: 30px;
  align-items: center;
 }
-.file-input {
-
- 
-  }
-  
-  .sr-only{
-  
-  }
   .section-one{
+   overflow: hidden;
     background:#e3e6e185;
-    max-width: 600px;
+    max-width: 750px;
     align-items: center;
     font-size: 25px;
     font-weight: bold;
@@ -36,10 +29,6 @@
     margin-top: 50px;
     text-align: center;
     width: 165px;
-  }
-  
-  .submit{
-    
   }
   
 #file-upload-button{
