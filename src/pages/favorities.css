@@ -2,10 +2,12 @@
     max-width: 1220px;
     margin: 0 auto;
 }
+.favorities-home{
+    color: #c96850;
+}
 .favorities-title{
     padding: 100px 0px;
 }
-
 .favorities-list{
     display: flex;
     justify-content: space-between;
@@ -14,7 +16,6 @@
     margin: 0 auto;
     gap: 30px;
 }
-
 .favorities-item{
     width: 30%;
     height: 500px;
@@ -46,8 +47,6 @@
     border: 1px solid #c96850;   
     flex-grow: 1;
 }
-
-
 @media(max-width:1200px){
     .favorities-list{
         flex-wrap: wrap;
@@ -57,7 +56,6 @@
     .favorities-item{
         width: 40%;
     }
-    
 }
 @media(max-width:767.98px){
     .favorities-item{
