@@ -1,13 +1,13 @@
 
 /* Upload files */
-.file-container{
+ .file-container{
    display: flex;
    flex-direction: column;
    gap: 30px;
- align-items: center;
-}
+   align-items: center;
+ }
   .section-one{
-   overflow: hidden;
+    overflow: hidden;
     background:#e3e6e185;
     max-width: 750px;
     align-items: center;
@@ -30,10 +30,9 @@
     text-align: center;
     width: 165px;
   }
-  
-#file-upload-button{
-  display: none;
-}
-input[type="file"]::-webkit-file-upload-button {
-  display: none;
-}
+  #file-upload-button{
+   display: none;
+  }
+  input[type="file"]::-webkit-file-upload-button {
+   display: none;
+ }
