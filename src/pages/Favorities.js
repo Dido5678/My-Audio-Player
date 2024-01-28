@@ -16,7 +16,7 @@ export default function Favorities() {
     <div className='favorities'>
       <div className='favorities-container container'>
       <div>
-      <Link to={'/'}>HOME</Link>
+      <Link to={'/'} className='favorities-home'>HOME</Link>
           <h2 className='favorities-title'>ALL SONGS </h2>
           {/* <div> </div> */}
           
